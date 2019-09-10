@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  background-color: white;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#logo {
+    display: inline-block;
+    margin-right: 30px;
+}
+#logo img {
+    width: 40px;
+    height: auto;
+}
+.menu {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  padding: 15px;
+  justify-content: left;
+  align-content: left;
+  align-items: center;
+}
+.item {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  opacity: 0.6;
+}
+.item:hover span {
+  color: #ff0000;
+}
+.menu:hover .item {
+  opacity: 1;
+}
