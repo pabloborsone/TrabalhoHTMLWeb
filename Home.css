@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 20%;
+}
+.col-3 {
+  width: 30%;
+}
+.col-4 {
+  width: 40%;
+}
+.col-5 {
+  width: 50%;
+}
+.col-6 {
+  width: 60%;
+}
+.col-7 {
+  width: 70%;
+}
+.col-8 {
+  width: 80%;
+}
+.col-9 {
+  width: 90%;
+}
+.col-10 {
+  width: 100%;
+}
 body {
   background-color: gray;
   color: rgba(255, 255, 255, 0.7);
@@ -39,41 +69,17 @@ body {
   margin-right: 30px;
   opacity: 0.6;
 }
+.item a:-webkit-any-link {
+  color: inherit;
+}
+.item a:link {
+  text-decoration: none;
+}
 .item:hover span {
   color: #ff0000;
 }
 .menu:hover .item {
   opacity: 1;
-}
-.col-1 {
-  width: 10%;
-}
-.col-2 {
-  width: 20%;
-}
-.col-3 {
-  width: 30%;
-}
-.col-4 {
-  width: 40%;
-}
-.col-5 {
-  width: 50%;
-}
-.col-6 {
-  width: 60%;
-}
-.col-7 {
-  width: 70%;
-}
-.col-8 {
-  width: 80%;
-}
-.col-9 {
-  width: 90%;
-}
-.col-10 {
-  width: 100%;
 }
 .home {
   display: flex;
@@ -83,7 +89,7 @@ body {
 }
 .disciplineInfo {
   display: flex;
-  background-image: url("https://i.imgur.com/g0fixOT.jpg");
+  background-image: url('Resources/ProgrammingWallpaper.jpg');
   min-height: 80vh;
   background-size: cover;
   align-items: center;
@@ -122,11 +128,23 @@ body {
   font-family: 'Crimson Text', serif;
 }
 .infoStudentText p {
-  font-size: 1em;
+  font-size: 1.1em;
   font-family: 'Crimson Text', serif;
 }
 #studentsDescription {
   height: 80vh;
-  background-image: url("http://getwallpapers.com/wallpaper/full/f/a/8/388109.jpg");
+  background-image: url('Resources/KingdomWallpaper.jpg');
   background-size: cover;
+}
+.footer {
+position: relative;
+bottom: 0;
+left: 0;
+display: flex;
+background-color: black;
+padding: 15px;
+justify-content: center;
+align-content: center;
+align-items: center;
+box-shadow: 0px 0px 15px black;
 }
