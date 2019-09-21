@@ -62,6 +62,7 @@ body {
   align-content: left;
   align-items: center;
   box-shadow: 0px 0px 15px black;
+  height:10vh;
 }
 .item {
   position: relative;
@@ -84,13 +85,13 @@ body {
 .home {
   display: flex;
   flex-direction: column;
-  min-height: 80vh;
+  min-height: 90vh;
   background-color: white;
 }
 .disciplineInfo {
   display: flex;
   background-image: url('Resources/ProgrammingWallpaper.jpg');
-  min-height: 80vh;
+  min-height: 90vh;
   background-size: cover;
   align-items: center;
   justify-content: center;

@@ -1,19 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
-  .col-1 {
-    width: 25%;
-  }
-  .col-2 {
-    width: 50%;
-  }
-  .col-3 {
-    width: 75%;
-  }
-  .col-4 {
-    width: 100%;
-  }
   body {
-    background-color: gray;
+    background-image: url('Resources/MarioWallpaper.jpg');
     color: rgba(255, 255, 255, 0.7);
     font-family: 'Lato', sans-serif;
     margin: 0px;
@@ -64,17 +52,11 @@
   .menu:hover .item {
     opacity: 1;
   }
-  .students {
+  .media {
     height: 90vh;
   }
-  .students section {
-    display: flex;
-    height: 100%;
-  }
-  .students section .student-1 {
-    background-color: white;
-  }
-  .students img {
-      width: 100%;
-      height: auto;
+  .media section  {
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
   }

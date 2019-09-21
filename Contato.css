@@ -1,20 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
-  .col-1 {
-    width: 25%;
-  }
-  .col-2 {
-    width: 50%;
-  }
-  .col-3 {
-    width: 75%;
-  }
-  .col-4 {
-    width: 100%;
-  }
   body {
-    background-color: gray;
-    color: rgba(255, 255, 255, 0.7);
+    background-image: gray;
+    color: black;
     font-family: 'Lato', sans-serif;
     margin: 0px;
   }
@@ -23,6 +11,7 @@
     padding: 0px;
     box-sizing: border-box;
   }
+
   #logo {
       display: inline-block;
       margin-right: 30px;
@@ -64,17 +53,21 @@
   .menu:hover .item {
     opacity: 1;
   }
-  .students {
+  .contact {
     height: 90vh;
   }
-  .students section {
+  .contact section {
     display: flex;
     height: 100%;
   }
-  .students section .student-1 {
-    background-color: white;
-  }
-  .students img {
+  .contact div {
       width: 100%;
       height: auto;
+  }
+  .contact section .contact-1 {
+  }
+  .contact img {
+      width: 100%;
+      height: auto;
+      padding-bottom: 0;
   }
