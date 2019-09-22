@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
   body {
-    background-image: gray;
+    background-color: gray;
     color: black;
     font-family: 'Lato', sans-serif;
     margin: 0px;
+  }
+  body a {
+    text-decoration: none;
   }
   * {
     margin: 0px;
@@ -30,7 +33,6 @@
     background-color: black;
     padding: 15px;
     justify-content: left;
-    align-content: left;
     align-items: center;
     box-shadow: 0px 0px 15px black;
     height: 10vh;
@@ -55,19 +57,28 @@
   }
   .contact {
     height: 90vh;
+    background-image: url('Resources/BeachWallpaper.jpg');
+    background-size: cover;
   }
   .contact section {
-    display: flex;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
   }
-  .contact div {
-      width: 100%;
-      height: auto;
+  .contact-1 {
+    text-align: center;
+    width: fit-content;
+    border: 1px dotted black;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    color: white;
   }
-  .contact section .contact-1 {
+  .contact-1 h2 {
+    font-size: 3em;
   }
-  .contact img {
-      width: 100%;
-      height: auto;
-      padding-bottom: 0;
+  .contact-1 p {
+    font-size: 1em;
   }

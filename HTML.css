@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
   body {
-    background-image: url('Resources/MarioWallpaper.jpg');
-    color: rgba(255, 255, 255, 0.7);
+    background-color: gray;
+    color: black;
     font-family: 'Lato', sans-serif;
     margin: 0px;
+  }
+  body a {
+    text-decoration: none;
   }
   * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
   }
+
   #logo {
       display: inline-block;
       margin-right: 30px;
@@ -51,43 +55,20 @@
   .menu:hover .item {
     opacity: 1;
   }
-  .media {
-    height: auto;
-  }
-  .media .videos  {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .media .videos h2 {
-    width: 100%;
-    margin: 20px;
-    color: white;
-    text-align: center;
-    font-size: 2em;
-  }
-  .media .videos iframe {
-    width: 50%;
-    height: 500px;
-    border: none;
-  }
-  .media .linkSection {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+  .content {
+      display: flex;
+      flex-direction: column;
+      height: 90vh;
+      background-image: url('Resources/HtmlWallpaper.jpg');
+      color: black;
+      align-content: center;
+      align-items: center;
     justify-content: center;
-  }
-  .media .linkSection h1 {
-    font-size: 2em;
-  }
-  .linkSection .links {
-    margin: 50px;
-  }
-  .linkSection .links a {
-    margin: 50px;
-  }
-  .linkSection .links a:hover {
-    color: #ff0000;
-  }
+}
+.content h1 {
+    font-size: 3em;
+}
+.content p {
+    margin-top: 50px;
+    line-height: 2;
+}
